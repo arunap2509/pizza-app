@@ -15,10 +15,23 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+## The App has a Home page, Orders page and Kitchen page
+
+### Home Page
 ```
-npm run lint
+    In homepage you can add the pizzas to your orders list,
+    you can view the number of orders you placed in the Orders nav link
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Orders page
+```
+    In Orders page you can check your order status and also you can add or reduce the
+    quantity of the orders you placed
+```
+
+### Kitchen page
+```
+    In Kitchen page you can change the current status of the order
+    The order will default to Added
+    then you can change to Cooking and Ready to serve
+```
