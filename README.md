@@ -15,7 +15,7 @@ npm run serve
 npm run build
 ```
 
-## The App has a Home page, Orders page and Kitchen page
+## The App has Home page, Orders page and Kitchen page
 
 ### Home Page
 ```
