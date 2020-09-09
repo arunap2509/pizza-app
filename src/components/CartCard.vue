@@ -34,6 +34,7 @@ export default {
     name: 'cart-card',
     props: ['item'],
     computed: {
+        // get what stage the orders are in
         added() {
             let addedStage = 0;
             this.item.orderIdAndAction.forEach((el) => {

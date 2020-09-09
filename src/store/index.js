@@ -11,6 +11,8 @@ export default new Vuex.Store({
     lastOrderId: JSON.parse(window.localStorage.getItem('lastOrderId')) || 0,
   },
   mutations: {
+    // update the cart, check if the item already exists then add the quantity
+    // else add a new one
     updateCart(state, payload) {
       let isAlreadyAdded = state.cart.some((el) => el.id === payload.id);
 
@@ -36,6 +38,7 @@ export default new Vuex.Store({
     updateQuantity(state) {
       state.quantity += 1;
     },
+    // update the action stage that the order is currently on
     updateActionStage(state, payload) {
       state.cart.forEach((el) => {
         el.orderIdAndAction.forEach((item) => {
@@ -45,6 +48,7 @@ export default new Vuex.Store({
         });
       });
     },
+    // remove an item from the cart and also remove the orderid and action 
     removeFromCart(state, payload) {
       state.cart.forEach((el, idx) => {
         if(el.id === payload.id) {
