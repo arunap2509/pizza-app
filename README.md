@@ -33,9 +33,7 @@ npm run build
 ```
     In Kitchen page you can change the current status of the order
     The order will default to Added
-    then you can change to Cooking and Ready to serve
+    then you can change to Cooking and Ready
 ```
-## Live Demo
-```
+### Live Demo
 [Go to live demo](https://pizzza-store-app.herokuapp.com/)
-```
