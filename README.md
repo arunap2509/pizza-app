@@ -37,5 +37,5 @@ npm run build
 ```
 ## Live Demo
 ```
-https://pizzza-store-app.herokuapp.com/
+[Go to live demo](https://pizzza-store-app.herokuapp.com/)
 ```
