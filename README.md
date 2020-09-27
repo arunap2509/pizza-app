@@ -35,3 +35,7 @@ npm run build
     The order will default to Added
     then you can change to Cooking and Ready to serve
 ```
+## Live Demo
+```
+https://pizzza-store-app.herokuapp.com/
+```
